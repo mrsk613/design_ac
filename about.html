@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="calendar.css">
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<title>当院について｜たなか動物病院</title>
+</head>
+
+<body>
+	<header class="top">
+		<a href="index.html" class="logo"><img src="img/logo.png" alt="">たなか動物病院</a>
+		<div class="pc_nav">
+			<ul>
+				<li><a href="about.html">当院について</a></li>
+				<li><a href="flow.html">はじめての方へ</a></li>
+				<li><a href="service.html">サービス</a></li>
+				<li><a href="staff.html">スタッフ</a></li>
+				<li><a href="voice.html">飼い主様の声</a></li>
+				<li><a href="access.html">アクセス</a></li>
+			</ul>
+		</div>
+		<div class="sp_nav">
+			<div class="nav-warraper">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="tel:03-0000-0000">電話予約</a></li>
+				</ul>
+			</div>
+			<div class="hamburger-menu">
+				<input type="checkbox" id="menu-btn-check">
+				<label for="menu-btn-check" class="menu-btn"><span></span></label>
+				<!--ここからメニュー-->
+				<div class="menu-content">
+					<ul>
+						<li><a href="about.html">当院について</a></li>
+						<li><a href="flow.html">はじめての方へ</a></li>
+						<li><a href="service.html">サービス</a></li>
+						<li><a href="staff.html">スタッフ</a></li>
+						<li><a href="voice.html">飼い主様の声</a></li>
+						<li><a href="access.html">アクセス</a></li>
+						<li><a href="yoyaku.html">予約について</a></li>
+					</ul>
+				</div>
+				<!--ここまでメニュー-->
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="yoyaku_button"><a href="yoyaku.html">予約する</a></div>
+		<section class="contents-box">
+			<h1>当院について</h1>
+			<h2>診察時間</h2>
+			<table class="table_type01">
+				<tbody>
+					<tr>
+						<th>時間</th>
+						<th>月</th>
+						<th>火</th>
+						<th>水</th>
+						<th>木</th>
+						<th>金</th>
+						<th>土</th>
+						<th>日</th>
+						<th>祝</th>
+					</tr>
+					<tr>
+						<th>9:00～13:00</th>
+						<td>〇</td>
+						<td>〇</td>
+						<td>〇</td>
+						<td>〇</td>
+						<td>〇</td>
+						<td>〇</td>
+						<td>〇</td>
+						<td>〇</td>
+					</tr>
+					<tr>
+						<th>14:00～20:00</th>
+						<td>〇</td>
+						<td>〇</td>
+						<td>休</td>
+						<td>〇</td>
+						<td>〇</td>
+						<td>〇</td>
+						<td>休</td>
+						<td>休</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+		</section>
+		<section class="bg-sub">
+			<div class="contents-box">
+				<h2>勤務表</h2>
+				<div class="calendar_top mt-20 mb-60">
+					<div class="icon">
+						<span class="juui">獣医師</span>
+						<span class="kangoshi">看護師</span>
+						<span class="trimmer">トリマー</span>
+					</div>
+				</div>
+				<div id="my-calendar" class="pt-30"></div>
+			</div>
+		</section>
+		<section class="contents-box pb-60">
+			<h2>クレジットカード・各種保険</h2>
+			<img src="image/card_01.png" alt="カード1" width="300" class="mr-40 border-none"><img src="image/card_02.jpg"
+				alt="カード2" width="300" class="border-none"><br>
+			<br><br>
+			<img src="image/hoken_01.png" alt="保険1" width="300" class="mr-40 border-none"><img src="image/hoken_02.jpg"
+				alt="保険2" width="300" class="border-none">
+		</section>
+		<section class="bg-sub">
+			<div class="contents-box">
+				<h2>内科</h2>
+				<div class="box-warraper">
+					<div class="box-2">
+						<ul class="dots">
+							<li>循環器</li>
+							<li>呼吸器</li>
+							<li>消化器</li>
+							<li>内分泌</li>
+							<li>血液・免疫</li>
+						</ul>
+					</div>
+					<div class="box-2">
+						<ul class="dots">
+							<li>腎・泌尿器</li>
+							<li>神経</li>
+							<li>皮膚</li>
+							<li>腫瘍</li>
+							<li>眼</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="contents-box">
+			<h2>外科</h2>
+			<p>去勢手術・避妊手術<br>その他軟部外科<br>※詳細につきましては直接お問い合わせください。</p>
+			<h3>手術の流れ</h3>
+			<div class="stepbar">
+				<div class="stepbarwrap">
+					<div class="steptitle">
+						<span class="stepcircle"></span>
+						<span class="stepnum">1.術前検査〜予約</span>
+					</div>
+					<div class="steptxt">
+						<span class="txt">全身麻酔をかけるにあたり術前検査を行います。<br>【検査項目】一般身体検査・血液検査・必要に応じてエコー検査・レントゲン検査</span>
+					</div>
+					<span class="stepline"></span>
+				</div>
+
+				<div class="stepbarwrap">
+					<div class="steptitle">
+						<span class="stepcircle"></span>
+						<span class="stepnum">2.手術当日</span>
+					</div>
+					<div class="steptxt">
+						<span class="txt">手術当日は10時までにご来院ください。手術の開始前と開始後にお電話にて状況をご連絡いたします。
+						</span>
+					</div>
+					<span class="stepline"></span>
+				</div>
+
+				<div class="stepbarwrap">
+					<div class="steptitle">
+						<span class="stepcircle"></span>
+						<span class="stepnum">3.術後</span>
+					</div>
+					<div class="steptxt">
+						<span class="txt">退院時に動物種・状態・性格等に合わせた自宅での経過の見方をお伝えいたします。<br>退院後、気になることがあれば病院までご連絡ください。</span>
+					</div>
+					<span class="stepline"></span>
+				</div>
+
+				<div class="stepbarwrap">
+					<div class="steptitle">
+						<span class="stepcircle"></span>
+						<span class="stepnum">4.再診</span>
+					</div>
+					<div class="steptxt">
+						<span class="txt">術後3日程度を目安に傷口のチェックの為に来院して頂きます。さらに1週間後(術後10日)を目安に受診して頂き、抜糸して終診となります。</span>
+					</div>
+					<span class="stepline"></span>
+				</div>
+			</div>
+			<p>避妊手術の場合、開腹手術のため一泊入院を行います。可能であれば、飼い主様の匂いがついているタオルやブランケット、毛布など安心のできるものをお持ちください。<br>また、お食事もご持参いただければそちらを入院中に出すことが可能です。
+			</p>
+		</section>
+		<section class="bg-sub">
+			<div class="contents-box">
+				<h2>歯科</h2>
+				<ul class="dots">
+					<li>スケーリング(歯石除去)</li>
+					<li>抜歯</li>
+				</ul>
+			</div>
+		</section>
+		<section class="contents-box">
+			<h2>日常ケア</h2>
+			<ul class="dots">
+				<li>爪切り</li>
+				<li>足裏バリカン</li>
+				<li>肛門腺しぼり</li>
+				<li>日常ケア</li>
+				<li>耳掃除</li>
+			</ul>
+		</section>
+		<div id="page_top"><a href="#"></a></div>
+	</main>
+	<footer>
+		<div class="contents-box">
+			<ul class="box-warraper">
+				<li class="box-2"><a href="about.html">当院について</a></li>
+				<li class="box-2"><a href="flow.html">はじめての方へ</a></li>
+				<li class="box-2"><a href="service.html">サービス</a></li>
+				<li class="box-2"><a href="staff.html">スタッフ紹介</a></li>
+				<li class="box-2"><a href="voice.html">飼い主様の声</a></li>
+				<li class="box-2"><a href="access.html">アクセス</a></li>
+				<li class="box-2"><a href="yoyaku.html">予約について</a></li>
+			</ul>
+		</div>
+		<p class="copyright">Copyright © 2023 Tanaka Animal Hospital. All RIGHT RESERVED.</p>
+	</footer>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/anchor.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/fullcalendar@5.10.1/main.js" defer></script>
+	<script type="text/javascript" src="js/calendar.js"></script>
+	<script type="text/javascript" src="js/calendar_list.js"></script>
+</body>
+
+</html>

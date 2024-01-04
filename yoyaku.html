@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/favicon.ico">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+	<title>田中どうぶつ病院</title>
+</head>
+
+<body>
+	<header class="top">
+		<a href="index.html" class="logo"><img src="img/logo.png" alt="">たなか動物病院</a>
+		<div class="pc_nav">
+			<ul>
+				<li><a href="about.html">当院について</a></li>
+				<li><a href="flow.html">はじめての方へ</a></li>
+				<li><a href="service.html">サービス</a></li>
+				<li><a href="staff.html">スタッフ</a></li>
+				<li><a href="voice.html">飼い主様の声</a></li>
+				<li><a href="access.html">アクセス</a></li>
+			</ul>
+		</div>
+		<div class="sp_nav">
+			<div class="nav-warraper">
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="tel:03-0000-0000">電話予約</a></li>
+				</ul>
+			</div>
+			<div class="hamburger-menu">
+				<input type="checkbox" id="menu-btn-check">
+				<label for="menu-btn-check" class="menu-btn"><span></span></label>
+				<!--ここからメニュー-->
+				<div class="menu-content">
+					<ul>
+						<li><a href="about.html">当院について</a></li>
+						<li><a href="flow.html">はじめての方へ</a></li>
+						<li><a href="service.html">サービス</a></li>
+						<li><a href="staff.html">スタッフ</a></li>
+						<li><a href="voice.html">飼い主様の声</a></li>
+						<li><a href="access.html">アクセス</a></li>
+						<li><a href="yoyaku.html">予約について</a></li>
+					</ul>
+				</div>
+				<!--ここまでメニュー-->
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="contents-box">
+			<h1>予約フォーム</h1>
+			<form class="yobou">
+				<p>緊急対応が必要な場合は下記電話番号へお電話ください。<br>（診療時間 平日：9:00～20:00　日曜祝日：9:00～13:00）</p>
+				<p>TEL：<a href="tel:03-0000-0000">03-0000-0000</a></p>
+				<p class="mb-30">※診療時間外でもこちらにお電話ください。自動音声にて別途ご連絡先をお伝えしております。</p>
+				<table class="yoyaku_table">
+					<tr>
+						<th class="contact-item"><label>希望日にち</label><span class="required">必須</span></th>
+						<td class="contact-body"><input type="date" name="希望日にち" class="date" id="date" required></td>
+					</tr>
+					<tr>
+						<th class="contact-item"><label>時間</label><span class="required">必須</span></th>
+						<td class="contact-body"><input type="time" name="時間" class="time" id="time" required></td>
+					</tr>
+					<tr>
+						<th class="contact-item"><label>飼い主様のお名前</label><span class="required">必須</span></th>
+						<td class="contact-body"><input type="text" name="飼い主様のお名前" class="form-text" required /></td>
+					</tr>
+					<tr>
+						<th class="contact-item"><label>メールアドレス</label><span class="required">必須</span></th>
+						<td class="contact-body"><input type="email" name="メールアドレス" class="form-text"
+								placeholder="sample@sample.com" required /></td>
+					</tr>
+					<tr>
+						<th class="contact-item"><label>電話番号</label><span class="required">必須</span></th>
+						<td class="contact-body"><input type="tel" name="電話番号" class="form-text" required /></td>
+					</tr>
+					<tr>
+						<th class="contact-item"><label>ペットの種類</label></th>
+						<td class="contact-body"><input type="text" name="ペットの種類" class="form-text" /></td>
+					</tr>
+					<tr>
+						<th class="contact-item"><label>ペットのお名前</label><span class="required">必須</span></th>
+						<td class="contact-body"><input type="text" name="ペットのお名前" class="form-text" /></td>
+					</tr>
+					<tr>
+						<th class="contact-item"><label>診察番号（再診の場合）</label></th>
+						<td class="contact-body"><input type="text" name="診察番号" class="form-text" /></td>
+					</tr>
+					<tr>
+						<th class="contact-item"><label>診察・質問事項</label></th>
+						<td class="contact-body"><textarea name="診察・質問事項" class="form-textarea"></textarea></td>
+					</tr>
+				</table>
+				<div class="ta-center pt-30">
+					<input class="contact-submit" type="submit" value="送信" />
+					<input class="contact-submit" type="reset" value="クリア" />
+				</div>
+			</form>
+		</section>
+		<footer>
+			<div class="contents-box">
+				<ul class="box-warraper">
+					<li class="box-2"><a href="about.html">当院について</a></li>
+					<li class="box-2"><a href="flow.html">はじめての方へ</a></li>
+					<li class="box-2"><a href="service.html">サービス</a></li>
+					<li class="box-2"><a href="staff.html">スタッフ紹介</a></li>
+					<li class="box-2"><a href="voice.html">飼い主様の声</a></li>
+					<li class="box-2"><a href="access.html">アクセス</a></li>
+					<li class="box-2"><a href="yoyaku.html">予約について</a></li>
+				</ul>
+			</div>
+			<p class="copyright">Copyright © 2023 Tanaka Animal Hospital. All RIGHT RESERVED.</p>
+		</footer>
+	</main>
+	<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+	<script src="https://cdn.jsdelivr.net/npm/flatpickr/dist/l10n/ja.js"></script>
+	<script>
+		var date = document.getElementById('date');
+		var fp = flatpickr(date, {
+			locale: 'ja',
+			dateFormat: 'Y.m.d（D）',
+			defaultDate: new Date()
+		});
+
+		flatpickr('#time', {
+			enableTime: true,
+			enableTime: true,
+			noCalendar: true,
+			dateFormat: "H:i",
+			minTime: "09:00",
+			maxTime: "20:00",
+			time_24hr: true,
+		});
+	</script>
+</body>
+
+</html>
